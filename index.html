@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Students Table</title>
+
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>planetName</th>
+                            <th>distanceFromSunKm</th>
+                            <th>diameterKm</th>
+                            <th>hasRings</th>
+                            <th>numbersofmoons</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="planet"></tbody>
+
+                </table>
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>planetName</th>
+                            <th>distanceFromSunKm</th>
+                            <th>diameterKm</th>
+                            <th>hasRings</th>
+                            <th>numbersofmoons</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="pan"></tbody>
+
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>mountainName</th>
+                            <th>heightMeters</th>
+                            <th>locationContinent</th>
+                            <th>firstAscentYear</th>
+                            <th>isVolcano</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="mon"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>mountainName</th>
+                            <th>heightMeters</th>
+                            <th>locationContinent</th>
+                            <th>firstAscentYear</th>
+                            <th>isVolcano</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="mu"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>uniName</th>
+                            <th>foundedYear</th>
+                            <th>countryLocated</th>
+                            <th>studentcount</th>
+                            <th>worldRanking</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="uni"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>uniName</th>
+                            <th>foundedYear</th>
+                            <th>countryLocated</th>
+                            <th>studentcount</th>
+                            <th>worldRanking</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="univer"></tbody>
+                </table>
+
+                <table class="table table-bordered  table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>species</th>
+                            <th>averageWeightKg</th>
+                            <th>habitatType</th>
+                            <th>lifespanYears</th>
+                            <th>endangeredStatus</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="ani"></tbody>
+                </table>
+
+                <table class="table table-bordered  table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>species</th>
+                            <th>averageWeightKg</th>
+                            <th>habitatType</th>
+                            <th>lifespanYears</th>
+                            <th>endangeredStatus</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="animal"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>appname</th>
+                            <th>categoryType</th>
+                            <th>downloadsMillion</th>
+                            <th>developerCompany</th>
+                            <th>subscriptionRequired</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="app"></tbody>
+                </table>
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>appname</th>
+                            <th>categoryType</th>
+                            <th>downloadsMillion</th>
+                            <th>developerCompany</th>
+                            <th>subscriptionRequired</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="apps1"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>dessertName</th>
+                            <th>sugarContentGrams</th>
+                            <th>servingTemp</th>
+                            <th>mainIngredient</th>
+                            <th>calorieCount</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="des"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>dessertName</th>
+                            <th>sugarContentGrams</th>
+                            <th>servingTemp</th>
+                            <th>mainIngredient</th>
+                            <th>calorieCount</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="dessert"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th></th>
+                            <th>surfaceAreaMillionSqKm</th>
+                            <th>countriesCount</th>
+                            <th>populationBillion</th>
+                            <th>largest country</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="con"></tbody>
+                </table>
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th></th>
+                            <th>surfaceAreaMillionSqKm</th>
+                            <th>countriesCount</th>
+                            <th>populationBillion</th>
+                            <th>largest country</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="cont"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>oceanTitle</th>
+                            <th>avgDepthMeters</th>
+                            <th>surfaceAreaMillionSqKm</th>
+                            <th>borderingContinents</th>
+                            <th>salinityPpt</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="oceans1"></tbody>
+                </table>
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>oceanTitle</th>
+                            <th>avgDepthMeters</th>
+                            <th>surfaceAreaMillionSqKm</th>
+                            <th>borderingContinents</th>
+                            <th>salinityPpt</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="oceans2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>gadgetLabel</th>
+                            <th>featuresCount</th>
+                            <th>batteryLifeHours</th>
+                            <th>connectivityType</th>
+                            <th>weightGrams</th>
+                        </tr>
+                    </thead>
+                    <tbody id="gadgets1"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>gadgetLabel</th>
+                            <th>featuresCount</th>
+                            <th>batteryLifeHours</th>
+                            <th>connectivityType</th>
+                            <th>weightGrams</th>
+                        </tr>
+                    </thead>
+                    <tbody id="gadgets2"></tbody>
+                </table>
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>landmarkLabel</th>
+                            <th>heightMeters</th>
+                            <th>visitorCountYearMillion</th>
+                            <th>ountryLocation</th>
+                            <th>constructionYear</th>
+                        </tr>
+                    </thead>
+                    <tbody id="land"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>landmarkLabel</th>
+                            <th>heightMeters</th>
+                            <th>visitorCountYearMillion</th>
+                            <th>ountryLocation</th>
+                            <th>constructionYear</th>
+                        </tr>
+                    </thead>
+                    <tbody id="land1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>vehicleType</th>
+                            <th>maxSpeedKph</th>
+                            <th>fuelCapacityLiters</th>
+                            <th>wheelCount</th>
+                            <th>manufacturerLocation</th>
+                        </tr>
+                    </thead>
+                    <tbody id="vehicles1">
+
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-warning">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>vehicleType</th>
+                            <th>maxSpeedKph</th>
+                            <th>fuelCapacityLiters</th>
+                            <th>wheelCount</th>
+                            <th>manufacturerLocation</th>
+                        </tr>
+                    </thead>
+                    <tbody id="vehi">
+
+                    </tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-warning">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>professionName</th>
+                            <th>maxSpeedKph</th>
+                            <th>fuelCapacityLiters</th>
+                            <th>wheelCount</th>
+                            <th>manufacturerLocation</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pro1">
+
+                    </tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>beverageTitle</th>
+                            <th>caffeineMg</th>
+                            <th>servingSizeMl</th>
+                            <th>servedHot</th>
+                            <th>sugarContentG</th>
+                        </tr>
+                    </thead>
+                    <tbody id="beveragesMenu1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>beverageTitle</th>
+                            <th>caffeineMg</th>
+                            <th>servingSizeMl</th>
+                            <th>servedHot</th>
+                            <th>sugarContentG</th>
+                        </tr>
+                    </thead>
+                    <tbody id="beveragesMenu2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>flowerName</th>
+                            <th>petalCount</th>
+                            <th>fragranceLevel</th>
+                            <th>bloomingSeason</th>
+                            <th>stemLengthCm</th>
+                        </tr>
+                    </thead>
+                    <tbody id="flowers1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>flowerName</th>
+                            <th>petalCount</th>
+                            <th>fragranceLevel</th>
+                            <th>bloomingSeason</th>
+                            <th>stemLengthCm</th>
+                        </tr>
+                    </thead>
+                    <tbody id="flowers2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>hotelLabel</th>
+                            <th>stars</th>
+                            <th>totalRooms</th>
+                            <th>poolAvailable</th>
+                            <th>cityLoc</th>
+                        </tr>
+                    </thead>
+                    <tbody id="hotels1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>hotelLabel</th>
+                            <th>stars</th>
+                            <th>totalRooms</th>
+                            <th>poolAvailable</th>
+                            <th>cityLoc</th>
+                        </tr>
+                    </thead>
+                    <tbody id="hotels2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>islandLabel</th>
+                            <th>areaSqKm</th>
+                            <th>countryAdmin</th>
+                            <th>inhabited</th>
+                            <th>climateType</th>
+                        </tr>
+                    </thead>
+                    <tbody id="islands1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>islandLabel</th>
+                            <th>areaSqKm</th>
+                            <th>countryAdmin</th>
+                            <th>inhabited</th>
+                            <th>climateType</th>
+                        </tr>
+                    </thead>
+                    <tbody id="islands2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>insectName</th>
+                            <th>wingspanCm</th>
+                            <th>legsCount</th>
+                            <th>lifespanDays</th>
+                            <th>canFly</th>
+                        </tr>
+                    </thead>
+                    <tbody id="insects1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>insectName</th>
+                            <th>wingspanCm</th>
+                            <th>legsCount</th>
+                            <th>lifespanDays</th>
+                            <th>canFly</th>
+                        </tr>
+                    </thead>
+                    <tbody id="insects2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>festivalName</th>
+                            <th>monthObserved</th>
+                            <th>durationDays</th>
+                            <th>originCountry</th>
+                            <th>outdoorEvent</th>
+                        </tr>
+                    </thead>
+                    <tbody id="festivals1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>festivalName</th>
+                            <th>monthObserved</th>
+                            <th>durationDays</th>
+                            <th>originCountry</th>
+                            <th>outdoorEvent</th>
+                        </tr>
+                    </thead>
+                    <tbody id="festivals2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>riverLabel</th>
+                            <th>lengthKm</th>
+                            <th>flowsThroughCountries</th>
+                            <th>avgDepthM</th>
+                            <th>deltaExists</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rivers1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>riverLabel</th>
+                            <th>lengthKm</th>
+                            <th>flowsThroughCountries</th>
+                            <th>avgDepthM</th>
+                            <th>deltaExists</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rivers2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>spiceName</th>
+                            <th>colorHue</th>
+                            <th>originRegion</th>
+                            <th>pungencyLevel</th>
+                            <th>isPowdered</th>
+                        </tr>
+                    </thead>
+                    <tbody id="spices1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>spiceName</th>
+                            <th>colorHue</th>
+                            <th>originRegion</th>
+                            <th>pungencyLevel</th>
+                            <th>isPowdered</th>
+                        </tr>
+                    </thead>
+                    <tbody id="spices2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>toolName</th>
+                            <th>weightKg</th>
+                            <th>handleMaterial</th>
+                            <th>manualTool</th>
+                            <th>usageCategory</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tools1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>toolName</th>
+                            <th>weightKg</th>
+                            <th>handleMaterial</th>
+                            <th>manualTool</th>
+                            <th>usageCategory</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tools2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>mineralLabel</th>
+                            <th>hardnessMoh</th>
+                            <th>crystalSystem</th>
+                            <th>isMetallic</th>
+                            <th>marketPriceUSDkg</th>
+                        </tr>
+                    </thead>
+                    <tbody id="minerals1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>mineralLabel</th>
+                            <th>hardnessMoh</th>
+                            <th>crystalSystem</th>
+                            <th>isMetallic</th>
+                            <th>marketPriceUSDkg</th>
+                        </tr>
+                    </thead>
+                    <tbody id="minerals2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>moonLabel</th>
+                            <th>orbitingPlanet</th>
+                            <th>diameterKm</th>
+                            <th>discoveredYear</th>
+                            <th>surfaceMaterial</th>
+                        </tr>
+                    </thead>
+                    <tbody id="planetsMoons1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>moonLabel</th>
+                            <th>orbitingPlanet</th>
+                            <th>diameterKm</th>
+                            <th>discoveredYear</th>
+                            <th>surfaceMaterial</th>
+                        </tr>
+                    </thead>
+                    <tbody id="planetsMoons2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>bandLabel</th>
+                            <th>originCity</th>
+                            <th>formedYear</th>
+                            <th>genreStyle</th>
+                            <th>albumsCount</th>
+                        </tr>
+                    </thead>
+                    <tbody id="musicalBands1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>bandLabel</th>
+                            <th>originCity</th>
+                            <th>formedYear</th>
+                            <th>genreStyle</th>
+                            <th>albumsCount</th>
+                        </tr>
+                    </thead>
+                    <tbody id="musicalBands2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>metroLabel</th>
+                            <th>trackLengthKm</th>
+                            <th>totalStations</th>
+                            <th>dailyRidershipMillion</th>
+                            <th>operatingSince</th>
+                        </tr>
+                    </thead>
+                    <tbody id="citiesMetro1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>metroLabel</th>
+                            <th>trackLengthKm</th>
+                            <th>totalStations</th>
+                            <th>dailyRidershipMillion</th>
+                            <th>operatingSince</th>
+                        </tr>
+                    </thead>
+                    <tbody id="citiesMetro2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>discoveryLabel</th>
+                            <th>discoveredBy</th>
+                            <th>yearMade</th>
+                            <th>fieldArea</th>
+                            <th>impactLevel</th>
+                        </tr>
+                    </thead>
+                    <tbody id="sciDiscoveries1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>discoveryLabel</th>
+                            <th>discoveredBy</th>
+                            <th>yearMade</th>
+                            <th>fieldArea</th>
+                            <th>impactLevel</th>
+                        </tr>
+                    </thead>
+                    <tbody id="sciDiscoveries2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>parkLabel</th>
+                            <th>countryLocated</th>
+                            <th>establishedYear</th>
+                            <th>areaSqKm</th>
+                            <th>annualVisitorsMillion</th>
+                        </tr>
+                    </thead>
+                    <tbody id="nationalParks1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>parkLabel</th>
+                            <th>countryLocated</th>
+                            <th>establishedYear</th>
+                            <th>areaSqKm</th>
+                            <th>annualVisitorsMillion</th>
+                        </tr>
+                    </thead>
+                    <tbody id="nationalParks2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>paintingTitle</th>
+                            <th>artistName</th>
+                            <th>yearCreated</th>
+                            <th>styleType</th>
+                            <th>currentLocation</th>
+                        </tr>
+                    </thead>
+                    <tbody id="artPaintings1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>paintingTitle</th>
+                            <th>artistName</th>
+                            <th>yearCreated</th>
+                            <th>styleType</th>
+                            <th>currentLocation</th>
+                        </tr>
+                    </thead>
+                    <tbody id="artPaintings2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>battleName</th>
+                            <th>battleYear</th>
+                            <th>mainCombatants</th>
+                            <th>outcome</th>
+                            <th>casualtiesApprox</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historicalBattles1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>battleName</th>
+                            <th>battleYear</th>
+                            <th>mainCombatants</th>
+                            <th>outcome</th>
+                            <th>casualtiesApprox</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historicalBattles2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>awardTitle</th>
+                            <th>categoryGiven</th>
+                            <th>established</th>
+                            <th>awardCountry</th>
+                            <th>frequencyYears</th>
+                        </tr>
+                    </thead>
+                    <tbody id="awards1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>awardTitle</th>
+                            <th>categoryGiven</th>
+                            <th>established</th>
+                            <th>awardCountry</th>
+                            <th>frequencyYears</th>
+                        </tr>
+                    </thead>
+                    <tbody id="awards2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>bridgeLabel</th>
+                            <th>lengthMeters</th>
+                            <th>countryLocated</th>
+                            <th>builtYear</th>
+                            <th>materialMain</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bridges1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>bridgeLabel</th>
+                            <th>lengthMeters</th>
+                            <th>countryLocated</th>
+                            <th>builtYear</th>
+                            <th>materialMain</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bridges2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>telescopeName</th>
+                            <th>launchYear</th>
+                            <th>primaryMirrorM</th>
+                            <th>operatorAgency</th>
+                            <th>missionStatus</th>
+                        </tr>
+                    </thead>
+                    <tbody id="spaceTelescopes1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>telescopeName</th>
+                            <th>launchYear</th>
+                            <th>primaryMirrorM</th>
+                            <th>operatorAgency</th>
+                            <th>missionStatus</th>
+                        </tr>
+                    </thead>
+                    <tbody id="spaceTelescopes2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>brandLabel</th>
+                            <th>foundedYear</th>
+                            <th>originCountry</th>
+                            <th>productType</th>
+                            <th>annualRevenueBillionUSD</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fashionBrands1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>brandLabel</th>
+                            <th>foundedYear</th>
+                            <th>originCountry</th>
+                            <th>productType</th>
+                            <th>annualRevenueBillionUSD</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fashionBrands2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>instrumentName</th>
+                            <th>categoryFamily</th>
+                            <th>rangeOctaves</th>
+                            <th>madeOf</th>
+                            <th>originCentury</th>
+                        </tr>
+                    </thead>
+                    <tbody id="musicalInstrumentsPro1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>instrumentName</th>
+                            <th>categoryFamily</th>
+                            <th>rangeOctaves</th>
+                            <th>madeOf</th>
+                            <th>originCentury</th>
+                        </tr>
+                    </thead>
+                    <tbody id="musicalInstrumentsPro2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>browserName</th>
+                            <th>developerOrg</th>
+                            <th>firstReleaseYear</th>
+                            <th>engineUsed</th>
+                            <th>platformSupport</th>
+                        </tr>
+                    </thead>
+                    <tbody id="webBrowsers1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>browserName</th>
+                            <th>developerOrg</th>
+                            <th>firstReleaseYear</th>
+                            <th>engineUsed</th>
+                            <th>platformSupport</th>
+                        </tr>
+                    </thead>
+                    <tbody id="webBrowsers2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>airlineName</th>
+                            <th>foundedYear</th>
+                            <th>hubAirport</th>
+                            <th>fleetSize</th>
+                            <th>allianceMember</th>
+                        </tr>
+                    </thead>
+                    <tbody id="airlines1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>airlineName</th>
+                            <th>foundedYear</th>
+                            <th>hubAirport</th>
+                            <th>fleetSize</th>
+                            <th>allianceMember</th>
+                        </tr>
+                    </thead>
+                    <tbody id="airlines2"></tbody>
+                </table>
+
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>volcanoLabel</th>
+                            <th>heightMeters</th>
+                            <th>lastEruptionYear</th>
+                            <th>locationIsland</th>
+                            <th>volcanoType</th>
+                        </tr>
+                    </thead>
+                    <tbody id="volcanoes1"></tbody>
+                </table>
+
+
+                <table class="table table-bordered table-hover">
+                    <thead class="alert-info">
+                        <tr>
+                            <th>sr.no</th>
+                            <th>volcanoLabel</th>
+                            <th>heightMeters</th>
+                            <th>lastEruptionYear</th>
+                            <th>locationIsland</th>
+                            <th>volcanoType</th>
+                        </tr>
+                    </thead>
+                    <tbody id="volcanoes2"></tbody>
+                </table>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
